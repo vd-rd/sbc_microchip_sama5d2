@@ -7623,6 +7623,12 @@
 		(uuid "1ab71b2e-9bfa-4e38-b53c-8f794a9675e8")
 	)
 	(junction
+		(at 55.88 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b10e7fb-1582-40d0-86d2-a213d38accca")
+	)
+	(junction
 		(at 233.68 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7633,6 +7639,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "ac177b8d-c546-44f5-a577-1cd32daea7a9")
+	)
+	(junction
+		(at 46.99 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e12de49d-1414-41d4-9efb-4d755918f93a")
 	)
 	(junction
 		(at 158.75 191.77)
@@ -7809,6 +7821,16 @@
 			(type default)
 		)
 		(uuid "2549ecf1-0eca-46a0-902f-c8548a350cec")
+	)
+	(wire
+		(pts
+			(xy 55.88 140.97) (xy 55.88 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257d8fb0-fdbe-43c0-9dad-359d9b7e918c")
 	)
 	(wire
 		(pts
@@ -8002,6 +8024,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 147.32) (xy 55.88 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c40ef24-88a0-4672-a2f7-ae1d690a0aac")
+	)
+	(wire
+		(pts
 			(xy 36.83 57.15) (xy 43.18 57.15)
 		)
 		(stroke
@@ -8029,6 +8061,16 @@
 			(type solid)
 		)
 		(uuid "4fc2d80e-781c-46d8-8550-c857b1606f26")
+	)
+	(wire
+		(pts
+			(xy 46.99 142.24) (xy 67.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55902846-240d-45b0-a846-da6c58fc785d")
 	)
 	(wire
 		(pts
@@ -8339,6 +8381,16 @@
 			(type default)
 		)
 		(uuid "935ffa62-980d-40d2-8f14-f9a5b09b8f50")
+	)
+	(wire
+		(pts
+			(xy 46.99 140.97) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987edf91-51ca-4bb5-87ca-2a1498c49625")
 	)
 	(wire
 		(pts
@@ -8722,6 +8774,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 147.32) (xy 67.31 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fe8d79-151c-47a3-848f-f14a721d1bff")
+	)
+	(wire
+		(pts
 			(xy 138.43 123.19) (xy 143.51 123.19)
 		)
 		(stroke
@@ -8769,6 +8831,16 @@
 			(type solid)
 		)
 		(uuid "f53a3a82-63c1-406f-86e0-30dcc08017ea")
+	)
+	(wire
+		(pts
+			(xy 38.1 142.24) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e2d531-4ca5-465c-ade5-6789e6c0ab92")
 	)
 	(wire
 		(pts
@@ -8959,6 +9031,28 @@
 		(uuid "017b042e-cfde-4b5b-8496-a0aa11d48d7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.7545 97.7106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMC_AUX_PWR"
+		(shape input)
+		(at 36.83 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "027f293b-31a9-46e9-911f-eda5308233bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.2982 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,6 +10008,28 @@
 			)
 		)
 	)
+	(global_label "PMIC-BTN"
+		(shape output)
+		(at 38.1 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b552b92-bc8b-4a82-ba60-344d2c7dc9a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3781 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD-D13"
 		(shape output)
 		(at 138.43 100.33 180)
@@ -10389,6 +10505,28 @@
 		(uuid "872de59b-aaa4-4a8a-98ac-45b0915870d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.7202 143.4306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMIC-IRQ"
+		(shape output)
+		(at 38.1 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b876e04-031a-48be-88e6-832daa7f7e3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1226 147.2406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14143,6 +14281,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 46.99 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "969711e5-00a9-44d9-8d8d-0f7487ee0c85")
+		(property "Reference" "R10"
+			(at 43.688 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 43.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 46.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 46.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6af2fc27-2348-4dd2-8476-f7fed726dfff")
+		)
+		(pin "2"
+			(uuid "9ec279ad-a8b9-4b4b-86a4-b517aac89434")
+		)
+		(instances
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/c78c3839-f815-4c28-86ad-dd93581d387a"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "microchip:ATSAMA5D27-LD2G")
 		(at 152.4 91.44 0)
 		(unit 3)
@@ -16636,6 +16841,73 @@
 			(project "sip_lpddr2"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/c78c3839-f815-4c28-86ad-dd93581d387a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 55.88 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbb87e88-14db-4829-b1e6-8b0f6f36e603")
+		(property "Reference" "R11"
+			(at 52.578 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 55.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 55.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e8e119a-a526-49e9-91d0-52d2e50237d5")
+		)
+		(pin "2"
+			(uuid "8ecc5089-28d2-46e0-8a19-07fc4f080e87")
+		)
+		(instances
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/c78c3839-f815-4c28-86ad-dd93581d387a"
+					(reference "R11")
 					(unit 1)
 				)
 			)

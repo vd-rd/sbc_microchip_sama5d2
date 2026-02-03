@@ -3570,7 +3570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0cc80bc-2be5-4b2b-a1ea-4cdde5120522")
-		(property "Reference" "U801"
+		(property "Reference" "U900"
 			(at 159.4613 35.2865 0)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 		(instances
 			(project "sip_lpddr2"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/aec0b0dc-4864-4f30-b63b-5aac84fa3885"
-					(reference "U801")
+					(reference "U900")
 					(unit 1)
 				)
 			)
