@@ -7884,7 +7884,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 86.36) (xy 257.81 86.36)
+			(xy 242.57 86.36) (xy 257.81 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8304,7 +8304,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 88.9) (xy 257.81 88.9)
+			(xy 247.65 88.9) (xy 257.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9194,6 +9194,28 @@
 			)
 		)
 	)
+	(global_label "PMIC_SHDN"
+		(shape output)
+		(at 247.65 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12ecfd26-239f-4508-8de4-78f6fc80b8fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.9605 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD-CLK"
 		(shape output)
 		(at 187.96 52.07 180)
@@ -9515,28 +9537,6 @@
 		(uuid "3b0381ea-86fe-4210-8c99-ffa545168474")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 230.8179 97.7106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SHDN"
-		(shape output)
-		(at 238.76 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3b1aa6be-55dd-4b81-b10a-7d9f4ccb968d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2064 88.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,9 +10800,31 @@
 			)
 		)
 	)
+	(global_label "~{PMIC_RST}"
+		(shape output)
+		(at 238.76 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a82861d3-3a48-4f4b-b279-acb139b956fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.7355 81.2006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "WKUP"
 		(shape input)
-		(at 238.76 86.36 180)
+		(at 242.57 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10812,7 +10834,7 @@
 		)
 		(uuid "a8e6742e-4b40-4f39-ae1b-75ab56caa374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.025 86.2806 0)
+			(at 234.835 86.2806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10989,28 +11011,6 @@
 		(uuid "ca31266c-9777-4f6f-8d5a-df9250eec4cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.7024 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{RST}"
-		(shape bidirectional)
-		(at 238.76 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3d62fd6-e554-40cf-8a4d-15c7b2df7c2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.9951 81.3594 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,6 +5,207 @@
 	(uuid "f5b0568f-5ab7-46c7-909f-354a31ad8300")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74xGxx:74AUP1G17"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "74AUP1G17"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Schmitt LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AUP1G17_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -2.54 -1.27) (xy -2.54 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AUP1G17_1_1"
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ATSAMA5D27-LD2G_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9796,6 +9997,12 @@
 		(uuid "7c324e4c-e1f3-41c4-b4ed-f9f23a2fbf4f")
 	)
 	(junction
+		(at 123.19 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82149902-4491-4b96-b2bc-cb670ca219e4")
+	)
+	(junction
 		(at 87.63 53.34)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -11271,6 +11478,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 172.72) (xy 123.19 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886d7520-e55c-42e2-9d1f-1338120e38a6")
+	)
+	(wire
+		(pts
 			(xy 256.54 57.15) (xy 256.54 63.5)
 		)
 		(stroke
@@ -11448,6 +11665,16 @@
 			(type default)
 		)
 		(uuid "9bda7067-95f6-4642-a294-92f6facdfab7")
+	)
+	(wire
+		(pts
+			(xy 115.57 181.61) (xy 123.19 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb8dedc-e5de-4d07-a8a5-3e7900b0bcc8")
 	)
 	(wire
 		(pts
@@ -11721,6 +11948,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 181.61) (xy 123.19 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d711f9-57a3-441f-8102-fae7ceb79809")
+	)
+	(wire
+		(pts
 			(xy 198.12 71.12) (xy 204.47 71.12)
 		)
 		(stroke
@@ -11778,6 +12015,16 @@
 			(type default)
 		)
 		(uuid "c4d51b81-bc64-459d-8f3d-091954298606")
+	)
+	(wire
+		(pts
+			(xy 123.19 177.8) (xy 123.19 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e541d4-d1a1-428f-9c58-f1863538648a")
 	)
 	(wire
 		(pts
@@ -11951,6 +12198,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 171.45) (xy 139.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de52810b-621f-4678-a238-420cb4dd27f4")
+	)
+	(wire
+		(pts
 			(xy 137.16 63.5) (xy 146.05 63.5)
 		)
 		(stroke
@@ -12038,6 +12295,16 @@
 			(type default)
 		)
 		(uuid "eb644447-7625-44ee-ab1a-29fee3c2fd9c")
+	)
+	(wire
+		(pts
+			(xy 149.86 181.61) (xy 165.1 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9c0195-1143-47f8-a5ea-4d8e626ddf47")
 	)
 	(wire
 		(pts
@@ -12239,6 +12506,36 @@
 		)
 		(uuid "47bd7707-1723-4af2-a655-5783ef073fdc")
 	)
+	(label "vddbu"
+		(at 227.33 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bcd110a-da1b-4fa3-9f72-8b5ae0c21d1f")
+	)
+	(label "vddbu"
+		(at 115.57 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bc05b12-be96-4ba6-96ab-e944f8cde239")
+	)
+	(label "pmic_pwrhld"
+		(at 80.01 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a48dffb3-66de-48b7-8ab0-c78e291abd97")
+	)
 	(label "ddr_vref"
 		(at 246.38 39.37 0)
 		(effects
@@ -12258,6 +12555,16 @@
 			(justify left bottom)
 		)
 		(uuid "b28b998b-94a2-42c4-b8c3-d4291864f27c")
+	)
+	(label "pmic_pwrhld"
+		(at 152.4 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c63b939c-8c92-421e-9585-c966fac6d666")
 	)
 	(label "ac_det"
 		(at 48.26 160.02 0)
@@ -12863,6 +13170,28 @@
 			)
 		)
 	)
+	(global_label "IPS"
+		(shape input)
+		(at 139.7 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "884beb8a-1224-414a-842e-ae960740f48f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.1974 171.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD_AUX1"
 		(shape output)
 		(at 147.32 121.92 0)
@@ -13052,6 +13381,28 @@
 		(uuid "b8255c99-63ce-48dc-b4d6-9d63ff853257")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.3655 38.0206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PMIC_SHDN"
+		(shape input)
+		(at 115.57 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bae96e61-1ba7-4ac0-a053-13ad3216c9c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.2621 181.5306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17218,6 +17569,84 @@
 		)
 	)
 	(symbol
+		(lib_id "74xGxx:74AUP1G17")
+		(at 139.7 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d0ff502-8cca-469b-9bbf-65a12c6929c4")
+		(property "Reference" "U1"
+			(at 152.4 175.1898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AUP1G17"
+			(at 152.4 177.7298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-N5_DRL-5"
+			(at 137.16 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 139.7 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(at 139.7 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e7a61bfc-a617-4c89-bef0-46712ba4193f")
+		)
+		(pin "5"
+			(uuid "e54efc41-a05b-42b4-9d70-2d9b9f27313a")
+		)
+		(pin "3"
+			(uuid "f334acd8-ff9d-4fc4-beb0-668b6a9ceff3")
+		)
+		(pin "1"
+			(uuid "bc3011ab-29a1-45f7-8930-1175b868e79c")
+		)
+		(pin "2"
+			(uuid "7073da12-926c-4336-bf8c-5fc0b22dbdd8")
+		)
+		(instances
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/3f80e801-59d5-4f2a-a510-5b0db0f896e8"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 104.14 0)
 		(unit 1)
@@ -18357,6 +18786,71 @@
 			(project "sip_lpddr2"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/3f80e801-59d5-4f2a-a510-5b0db0f896e8"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ef74204-1024-4411-bd68-dc44adb37ef3")
+		(property "Reference" "#PWR030"
+			(at 134.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 193.5544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ee3a87f-7e90-46cb-b278-da23547b027f")
+		)
+		(instances
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/3f80e801-59d5-4f2a-a510-5b0db0f896e8"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -20896,6 +21390,76 @@
 			(project "sip_lpddr2"
 				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/3f80e801-59d5-4f2a-a510-5b0db0f896e8"
 					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 123.19 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdfebdc6-2485-4bf4-9f2d-e5d4d3431d4f")
+		(property "Reference" "R21"
+			(at 124.6887 174.4991 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 124.6887 176.7978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~{}"
+			(at 123.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d204f6e-d190-4837-8f29-e52a4638b792")
+		)
+		(pin "2"
+			(uuid "f1f0b21d-c840-469d-93ab-0f90c0e5b64f")
+		)
+		(instances
+			(project "sip_lpddr2"
+				(path "/8c33f5a3-8933-40e3-bc7e-12e8b6e14cec/3f80e801-59d5-4f2a-a510-5b0db0f896e8"
+					(reference "R21")
 					(unit 1)
 				)
 			)
