@@ -67,7 +67,6 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-hardware/sbc-backups/*
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -79,3 +78,12 @@ hardware/sbc-backups/*
 *.xml
 *.csv
 outputs/*
+
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
+
+# Local project settings
+*.kicad_prl
+
+# Local history
+**/.history
